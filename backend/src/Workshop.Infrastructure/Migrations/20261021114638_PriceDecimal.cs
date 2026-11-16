@@ -1,8 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Workshop.Api.Migrations
+namespace Workshop.Infrastructure.Migrations
 {
     /// <inheritdoc />
     public partial class PriceDecimal : Migration

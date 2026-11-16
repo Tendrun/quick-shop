@@ -8,7 +8,7 @@ using Workshop.Infrastructure.Data;
 
 #nullable disable
 
-namespace Workshop.Api.Migrations
+namespace Workshop.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
@@ -22,7 +22,7 @@ namespace Workshop.Api.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("Workshop.Api.Features.Product.ProductEntity", b =>
+            modelBuilder.Entity("Workshop.Domain.Features.Product.ProductEntity", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
